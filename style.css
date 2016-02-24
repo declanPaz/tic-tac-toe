@@ -1,0 +1,66 @@
+* {
+	font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+	font-size: 15px;
+}
+
+body {
+	background-color: #00A0E9;
+}
+
+.headline {
+	height:50px;
+	font-size: 20px;
+} 
+
+.inputContainer {
+	background-color:#D3D3D3;
+	border: 3px solid black;
+}
+
+.inputBar {
+	background-color:#D3D3D3;
+	margin-left: 12px;
+}
+
+.btn .btn-primary {
+	border-radius: 30%;
+
+}
+
+
+
+ul>li {
+	color:#E60012;
+	background:linear-gradient(#00A0E9,#007a99);
+	list-style-type:none;
+	max-width: 250px;
+}
+
+.person {
+
+}
+
+.random {
+
+}
+
+#randomizer {
+	background:repeating-linear-gradient(to top left,violet, indigo,blue,green,yellow,red);
+	border: 3px dashed black;
+	color:white;
+}
+
+addRand {
+
+}
+
+
+
+
+
+
+
+
+
+
+

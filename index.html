@@ -1,0 +1,46 @@
+<!-- add success and fail glyphicons for adding names to the list-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="headline">Put in a persons name and click submit to add a Person!
+	</div>
+
+<!-- this is the input bar and button-->	
+	<div class="row">
+		<div class="inputContainer">
+			<input type="text" class="inputBar col-xs-6" placeholder="type over me, I dare ya!" id="eraseMe">
+		</div>
+		<button class="btn btn-primary col-xs-3" id="submit">
+		<i class="glyphicons glyphicons-user-add"></i>Submit
+		</button>
+		<button class="btn col-xs-3 random" id="randomizer">
+		get Krazy! Randomize!
+		</button>
+	</div>
+
+<!--list of people who should be added by button click-->	
+	<div class="theList">
+		<ul id="addToMe"> Here they come!
+				<li class="person">kooky krazy kafkaesque kiel</li>
+		</ul>
+	</div>
+<!--list out random people!-->
+	<div class="randomized">
+		<p>Lucky student coming right here!</p>
+		<p id="addRand"></p>
+	</div>
+<script src='main.js'></script>
+
+</body>
+</html>
