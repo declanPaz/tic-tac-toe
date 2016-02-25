@@ -1,46 +1,42 @@
-<!-- add success and fail glyphicons for adding names to the list-->
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="style.css">
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>Document</title
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-
-
-	<link rel="stylesheet" href="style.css">
-</head>
+	<h1>Welcome to Tic-Tac-Toe</h1>
+	<h4 class="player Listing" id = "playerUp"></h4>
 <body>
-	<div class="headline">Put in a persons name and click submit to add a Person!
-	</div>
-
-<!-- this is the input bar and button-->	
-	<div class="row">
-		<div class="inputContainer">
-			<input type="text" class="inputBar col-xs-6" placeholder="type over me, I dare ya!" id="eraseMe">
+	<div class = "container">
+		<div class="row row1">
+			<div class = "box" id="1">1</div>
+			<div class = "box" id="2">2</div>
+			<div class = "box" id="3">3</div>
 		</div>
-		<button class="btn btn-primary col-xs-3" id="submit">
-		<i class="glyphicons glyphicons-user-add"></i>Submit
-		</button>
-		<button class="btn col-xs-3 random" id="randomizer">
-		get Krazy! Randomize!
-		</button>
-	</div>
 
-<!--list of people who should be added by button click-->	
-	<div class="theList">
-		<ul id="addToMe"> Here they come!
-				<li class="person">kooky krazy kafkaesque kiel</li>
-		</ul>
-	</div>
-<!--list out random people!-->
-	<div class="randomized">
-		<p>Lucky student coming right here!</p>
-		<p id="addRand"></p>
-	</div>
-<script src='main.js'></script>
+		<div class="row row2">
+			<div class = "box" id="4">4</div>
+			<div class = "box" id="5">5</div>
+			<div class = "box" id="6">6</div>
+		</div>
 
+		<div class = "row row3">
+			<div class = "box" id="7">7</div>
+			<div class = "box" id="8">8</div>
+			<div class = "box" id="9">9</div>
+		</div>
+	</div>
+	<div id="theWinner"></div>
+
+	<button class="resetter">This is the resetting button</button>
 </body>
+
+<script src="main.js"></script>
+
 </html>
+
+
+
+
+
